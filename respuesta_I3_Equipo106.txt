@@ -31,3 +31,13 @@ Luego de modificar los datos del archivo, el procedimiento es el mismo que siemp
 git add .
 git commit -m “”
 git push
+
+g-
+git pull
+git checkout Porfilio
+ipconfig
+git add .
+git commit -m "agregando mi ipconfig"
+git push origin Porfirio
+
+
