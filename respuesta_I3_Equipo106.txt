@@ -18,3 +18,16 @@ git merge Horisberger ->Para fusionar la rama main con la rama Horisberger
 git add . ->Para prepara la subida de datos
 git commit -m "" ->Para definir el mensaje que saldra con los datos
 git push ->Para subir los cambios al repositorio remoto
+
+d- Quedan con los datos existentes a la hora de crear la rama, pero para actualizarlos al estado actual de la rama principal se tiene que explícitamente implementar comandos.
+La rama de gamma queda en el estado del último push, y luego se sigue trabajando con las ramas de beta y main, pero la de gamma quedó desactualizada, aunque actualmente las ramas de beta y main están en el mismo estado.
+
+e- No tuvimos ningún problema al hacer el primer merge, pero en el segundo Beta no podía hacer el merge desde su repositorio local ya que tenía que descargar la versión más actualizada de la rama "Porfirio", cosa que le llevó varios intentos hasta qué intentó el comando 
+git pull https://github.com/ThiagoPorfirio2003/TP_SO_i3_Equipo-106.git Porfirio, con el cual logró actualizar su rama local "Porfirio" y así fusionarla con la rama "main" para poder subirla al repositorio remoto.
+
+f- git checkout main – para posicionarme en la rama principal
+git checkout Porfirio – para entrar a la rama nueva de Beta con beta.txt
+Luego de modificar los datos del archivo, el procedimiento es el mismo que siempre
+git add .
+git commit -m “”
+git push
