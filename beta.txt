@@ -98,4 +98,5 @@ Adaptador de Ethernet Ethernet:
    Máscara de subred . . . . . . . . . . . . : 255.255.255.0
    Puerta de enlace predeterminada . . . . . : 192.168.0.1
 
+
 Hora: 15:26
