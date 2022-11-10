@@ -1,0 +1,20 @@
+Porfirio Thiago (Beta)
+Lucas Torres (Alfa)
+Matias Horisberger (Gamma)
+
+a- Contiene todo lo de las otras ramas al momento en el cual se hizo el merge con estas, es decir,
+como una captura de pantalla del estado de la rama con la cual se le hizo merge, pero si varias ramas
+comparten archivos, en el main quedara la version del archivo mas reciente
+
+b- Si pude verlos, ya que todos estuvimos compartiendo pantalla y ademas cuando el resto hacia un push
+revisaba que el repositorio remoto se habia actualizada correctamente, cosa que fue asi, por lo que
+si pude ver los cambios que realizaron
+
+c- Lo siguiente es la lista de comandos que use para hacer el merge, los cuales los realice 
+desde mi repositorio local
+
+git checkout main ->Para moverme a la rama main, a la cual quiero fusionarla con otra rama
+git merge Horisberger ->Para fusionar la rama main con la rama Horisberger
+git add . ->Para prepara la subida de datos
+git commit -m "" ->Para definir el mensaje que saldra con los datos
+git push ->Para subir los cambios al repositorio remoto
